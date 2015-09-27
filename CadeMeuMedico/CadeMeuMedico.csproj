@@ -123,6 +123,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CidadesMetadado.cs" />
+    <Compile Include="Models\EspecialidadesMetadado.cs" />
+    <Compile Include="Models\MedicoMetadado.cs" />
     <Compile Include="Models\ModeloDeDados.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -138,6 +141,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModeloDeDados.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\UsuariosMetadado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
